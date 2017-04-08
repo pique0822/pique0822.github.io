@@ -6,40 +6,37 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 		<!-- BootStrap-->
-  		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 		<!--My Code -->
-		<script src="main.js"></script>
+		<script src="js/main.js"></script>
+
+		<!--My Css-->
+		<link rel='stylesheets/text' href='css/style.css'>
 	</head>
 	<body>
-		<h1>Miguel Del Rio</h1>
-		<div id = "header">
-			<div id = "buttons">
-				<ul class="nav nav-pills">
-					<li class="active">
-						<a href="#">Home</a>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
-						<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="http://pique0822.github.io/EyesFollowing/">Cookie Follower</a></li>
-							<li><a href="http://pique0822.github.io/PhotoTessellation">Photo Tessellator</a></li>
-						</ul>
-					</li>
-				</ul>
-
-			</div>
-
-			<div id = "photo">
-				Photo
+		<div class='header'>
+			<div class = 'row'>
+				<div class = 'col-md-2' id="photo">
+					Photo
+				</div>
+				<div class = 'col-md-6 col-md-offset-4' id='navigation'>
+					<div clas='row'>
+						<div class='button' id='projects'>
+							Projects
+						</div>
+						<div class='button' id='aboutMe'>
+							About Me
+						</div>
+						<div class='button' id='resume'>
+							Resume
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<div id = "information">
-			Info
+		<div class='container'>
+			Container
 		</div>
-
 	</body>
 </html>
