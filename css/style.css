@@ -1,3 +1,105 @@
-#navigation {
-  background-color: purple;
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+div {
+  /* outline: 1px dashed blue; */
+}
+
+.full-page {
+  height: 100vh;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+#profile-picture {
+  position: relative;
+  object-fit: cover;
+  border-radius: 50%;
+
+  box-shadow: 0px 0px 5px 5px #3498db;
+
+  z-index: 2;
+  margin-bottom: 1vw;
+}
+
+.navigation{
+  padding-top: 15vh;
+  background-size: cover;
+
+  color:white;
+}
+
+.nav-name{
+  position: relative;
+  z-index: 2;
+}
+
+.black-filter{
+  z-index: 1;
+
+  position: absolute;
+  top: 0;
+  left:0;
+  height:100%;
+  width: 100%;
+
+  background-color: rgba(0,0,0,0.6);
+}
+
+.nav-buttons{
+  z-index: 2;
+
+  position: relative;
+  margin-top: 10px;
+  font-size: 1.25em;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.selected{
+  color: #3498db;
+}
+
+.content {
+  padding: 1.5vw;
+  display: flex;
+  flex-flow: column;
+}
+.content-title{
+  font-size: 3em;
+  font-weight: bolder;
+}
+.content-subtitle{
+  font-size: 1em;
+  font-style: italic;
+}
+.content-main{
+  font-size: 1.25em;
+  flex-grow: 1;
 }
