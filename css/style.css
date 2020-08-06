@@ -46,7 +46,7 @@ div {
 }
 
 .navigation{
-  padding-top: 15vh;
+  padding: 15vh 1vw 1vh 1vw;
   background-size: cover;
 
   color:white;
@@ -100,6 +100,7 @@ div {
   font-style: italic;
 }
 .content-main{
+  padding: 1vh 1vw 1vh 1vw;
   font-size: 1.25em;
   flex-grow: 1;
 }
