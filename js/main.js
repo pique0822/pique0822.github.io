@@ -17,7 +17,23 @@ var pages = {
 	},
 	'Projects':{
 		'color':'#e74c3c',
-		'title':"Projects"
+		'title':"Projects",
+		'subtitle':"Check out some of the cool projects I've worked on over the years!",
+		'main':"<span style='text-align:center; font-weight:bold; font-size:1.25em;'>Websites</span>\
+		<br/>\
+		<a class='links' href='https://pique0822.github.io/VideoLectures/'>vid&middot;in</a> - this project was developed with the purpose of providing teachers an easy way to upload lectures online, ask questions, and receive student answers through the same website. This project included a feature that snapped a picture of the student as a question was answered to ensure that the appropriate person was answering the questions.\
+		<br/>\
+		<br/>\
+		<a class='links' href='https://pique0822.github.io/chatbots/'>Personal Chatbot</a> - this website provides a way for anyone to make a chatbot and share it using a code. The chatbot can be personalized with your own questions, color, and/or name. Users of the chatbot can ask questions and a simple question-answering system will reply with the most likely answer.\
+		<br/>\
+		<br/>\
+		<a class='links' href='https://pique0822.github.io/ContinuedFractionVisualizer/'>Visualizing Continued Fractions</a> - in this project I try to \"see\" irrational numbers by drawing them on a 2D plane using simple rules.\
+		<br/>\
+		<br/>\
+		<a class='links' href='https://pique0822.github.io/VisualizingFractions/'>Visualizing Fractions</a> - a simple visualization of all kinds of fractions shown as pieces of a pie.\
+		<br/>\
+		<br/>\
+		"
 	}
 };
 
