@@ -92,15 +92,18 @@ div {
   flex-flow: column;
 }
 .content-title{
+  padding: 0vh 6vw 0vh 6vw;
   font-size: 3em;
   font-weight: bolder;
 }
 .content-subtitle{
+  padding: 0vh 6vw 0vh 6vw;
   font-size: 1em;
   font-style: italic;
 }
+
 .content-main{
-  padding: 1vh 1vw 1vh 1vw;
+  padding: 1vh 6vw 1vh 6vw;
   font-size: 1.25em;
   flex-grow: 1;
 }
