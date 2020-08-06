@@ -58,6 +58,7 @@ function updatePage(){
 	// Update the Color based on the page
 	if("color" in vardef){
 		$('.selected').css('color',vardef['color']);
+		$('.content-title').css('color',vardef['color']);
 		$('#profile-picture').css('box-shadow','0px 0px 5px 5px '+vardef['color']);
 		$('a').css('color', vardef['color']);
 	}
