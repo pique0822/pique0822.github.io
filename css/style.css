@@ -1,6 +1,7 @@
 body{
   overflow-x: hidden;
-
+  overscroll-behavior: none;
+  -webkit-overflow-behavior: none;
 }
 
 a:link {
@@ -109,10 +110,18 @@ div {
 }
 
 @media screen and (min-width: 768px) {
-  body{
-    overflow-y: hidden;
+  .navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
   }
-  content{
-    overflow-y: auto;
+  .content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 25vw;
+
+    overflow-y: scroll;
   }
 }
