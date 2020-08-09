@@ -8,7 +8,7 @@ var pages = {
 	'Resume':{
 		'color':'#9b59b6',
 		'title':"Resume",
-		'main':'<iframe src="mdelrioresume.pdf" style="width:100%; height: 100% !important;"></iframe>'
+		'main':'<iframe src="mdelrioresume.pdf" style="width:100%; height: 75vh"></iframe>'
 	},
 	'Publications':{
 		'color':'#27ae60',
