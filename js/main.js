@@ -13,8 +13,18 @@ var pages = {
 	'Publications':{
 		'color':'#27ae60',
 		'title':"Publications",
-		'main':"<span style='text-align:center; font-weight:bold; font-size:1.25em;'>2020</span><br/>\
-		Jonathan Mamou, Hang Le, Miguel Del Rio, Cory Stephenson, Hanlin Tang, Yoon Kim, andSueYeon Chung. Emergence of separable manifolds in deep language representations. In 37<sup>th</sup> International Conference on Machine Learning, ICML 2020. International Machine LearningSociety (IMLS), 2020. <a class='links' href='https://arxiv.org/abs/2006.01095'>https://arxiv.org/abs/2006.01095</a>."
+		'main':"\
+		<span style='text-align:center; font-weight:bold; font-size:1.25em;'>2021</span>\
+		<br/>\
+		Arthur Hinsvark, Natalie Delworth, Miguel Del Rio, Quinten McNamara, Joshua Dong, Ryan Westerman, Michelle Huang, Joseph Palakapilly, Jennifer Drexler, Ilya Pirkin, Nishchal Bhandari, Miguel Jette. \"Accented Speech Recognition: A Survey\". <a class='links' href='https://arxiv.org/abs/2104.10747'>https://arxiv.org/abs/2104.10747</a>.\
+		<br/>\
+		<br/>\
+		Matteo Alleman, Jonathan Mamou, Miguel A Del Rio, Hanlin Tang, Yoon Kim, SueYeon Chung. \"Syntactic Perturbations Reveal Representational Correlates of Hierarchical Phrase Structure in Pretrained Language Models\". <a class='links' href='https://arxiv.org/abs/2104.07578'>https://arxiv.org/abs/2104.07578</a>.\
+		<br/>\
+		<br/>\
+		<span style='text-align:center; font-weight:bold; font-size:1.25em;'>2020</span>\
+		<br/>\
+		Jonathan Mamou, Hang Le, Miguel Del Rio, Cory Stephenson, Hanlin Tang, Yoon Kim, and SueYeon Chung. \"Emergence of separable manifolds in deep language representations\". In 37<sup>th</sup> International Conference on Machine Learning, ICML 2020. International Machine LearningSociety (IMLS), 2020. <a class='links' href='https://arxiv.org/abs/2006.01095'>https://arxiv.org/abs/2006.01095</a>."
 	},
 	'Projects':{
 		'color':'#e74c3c',
