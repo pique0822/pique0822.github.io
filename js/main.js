@@ -38,7 +38,10 @@ var pages = {
 		'main':"\
 		<span style='text-align:center; font-weight:bold; font-size:1.25em;'>Publications</span>\
 		<br/>\
-		<a class='links' href='https://github.com/schung039/contextual-repr-manifolds'>Emergence of Separable Manifolds in Deep Language Representations</a> - as one of the authors of this paper, I helped developed the code used to measure the emergence of linguistic information manifolds. The paper that resulted from these analyses can be found <a class='links' href='https://arxiv.org/pdf/2006.01095.pdf'>here</a>.\
+		<a class='links' href='https://github.com/revdotcom/speech-datasets/tree/main/earnings21'>Earnings 21: A Practical Benchmark for ASR in the Wild</a> - as the paper's first author, I led the effort to gather, transcribe, and annotate the dataset. The paper describing our process to create and evaluate the dataset was accepted to Interspeech 2021 and can be found <a class='links' href='https://arxiv.org/abs/2104.11348'>here</a>\
+		<br/>\
+		<br/>\
+		<a class='links' href='https://github.com/schung039/contextual-repr-manifolds'>Emergence of Separable Manifolds in Deep Language Representations</a> - as one of the authors of this paper, I helped developed the code used to measure the emergence of linguistic information manifolds. The paper that resulted from these analyses was accepted to ICML 2020 and can be found <a class='links' href='https://arxiv.org/pdf/2006.01095.pdf'>here</a>.\
 		<br/>\
 		<br/>\
 		<span style='text-align:center; font-weight:bold; font-size:1.25em;'>Websites</span>\
