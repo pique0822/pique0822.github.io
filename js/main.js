@@ -16,6 +16,11 @@ var pages = {
 		'main':"\
 		<span style='text-align:center; font-weight:bold; font-size:1.25em;'>2021</span>\
 		<br/>\
+		Miguel Del Rio, Natalie Delworth, Ryan Westerman, Michelle Huang, Nishchal Bhandari, Joseph Palakapilly Quinten McNamara, Joshua Dong, Piotr <span>&#379;</span>elasko, Miguel Jette. \"Earnings 21: A Practical Benchmark for ASR in the Wild\". <a class='links' href='https://arxiv.org/abs/2104.11348'>https://arxiv.org/abs/2104.11348</a>.\
+		<br/>\
+		Accepted at Interspeech 2021\
+		<br/>\
+		<br/>\
 		Arthur Hinsvark, Natalie Delworth, Miguel Del Rio, Quinten McNamara, Joshua Dong, Ryan Westerman, Michelle Huang, Joseph Palakapilly, Jennifer Drexler, Ilya Pirkin, Nishchal Bhandari, Miguel Jette. \"Accented Speech Recognition: A Survey\". <a class='links' href='https://arxiv.org/abs/2104.10747'>https://arxiv.org/abs/2104.10747</a>.\
 		<br/>\
 		<br/>\
