@@ -3,7 +3,7 @@ var pages = {
 		'color':'#3498db',
 		'title':"About Me",
 		'subtitle':'Get to know a little bit about me and my interests.',
-		'main':"Welcome to my website - I've recently graduated from my Master's of Engineering in Computer Science from MIT, focusing in Artificial Intelligence / Machine Learning. In recent years, my interests have been in Natural Language Processing, Automatic Speech Recognition, and Computational Psycholinguistics. <br/><br/> Some interesting facts about me:<ul><li>My favorite authors are Dan Brown (I would highly recommend <i>Digital Fortress</i> or <i>Origins</i>) and Kurt Vonnegut (<i>Player Piano</i> is a must read)</li><li>I am bilingual, fluent in Spanish and Engilsh but want to learn German!</li><li>My favorite work of art is <i>Guernica</i> by Pablo Picasso.</li><ul>"
+		'main':"Welcome to my GitHub Pages! This website is meant to be a brief summary about me -- if you'd like to chat more please feel free to reach out to me via my email.<br/><br/>I graduated from my Master's of Engineering in Computer Science from MIT in January 2020, focusing in Artificial Intelligence / Machine Learning. In recent years, my interests have been in Natural Language Processing (NLP), Automatic Speech Recognition (ASR), and Computational Psycholinguistics.<br/><br/>Some interesting facts about me:<ul><li>My favorite authors are Dan Brown (I would highly recommend <i>Digital Fortress</i> or <i>Origins</i>) and Kurt Vonnegut (<i>Player Piano</i> is a must read)</li><li>I am bilingual, fluent in Spanish and Engilsh but want to learn German!</li><li>My favorite work of art is <i>Guernica</i> by Pablo Picasso.</li><ul>"
 	},
 	'Resume':{
 		'color':'#9b59b6',
@@ -24,7 +24,7 @@ var pages = {
 		Arthur Hinsvark, Natalie Delworth, Miguel Del Rio, Quinten McNamara, Joshua Dong, Ryan Westerman, Michelle Huang, Joseph Palakapilly, Jennifer Drexler, Ilya Pirkin, Nishchal Bhandari, Miguel Jette. \"Accented Speech Recognition: A Survey\". <a class='links' href='https://arxiv.org/abs/2104.10747'>https://arxiv.org/abs/2104.10747</a>.\
 		<br/>\
 		<br/>\
-		Matteo Alleman, Jonathan Mamou, Miguel A Del Rio, Hanlin Tang, Yoon Kim, SueYeon Chung. \"Syntactic Perturbations Reveal Representational Correlates of Hierarchical Phrase Structure in Pretrained Language Models\". <a class='links' href='https://arxiv.org/abs/2104.07578'>https://arxiv.org/abs/2104.07578</a>.\
+		Matteo Alleman, Jonathan Mamou, Miguel A Del Rio, Hanlin Tang, Yoon Kim, SueYeon Chung. \"Syntactic Perturbations Reveal Representational Correlates of Hierarchical Phrase Structure in Pretrained Language Models\". In Proceedings of the 6th Workshop on Representation Learning for NLP (RepL4NLP-2021). <a class='links' href='https://aclanthology.org/2021.repl4nlp-1.27.pdf'>https://aclanthology.org/2021.repl4nlp-1.27.pdf</a>.\
 		<br/>\
 		<br/>\
 		<span style='text-align:center; font-weight:bold; font-size:1.25em;'>2020</span>\
