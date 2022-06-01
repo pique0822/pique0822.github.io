@@ -10,10 +10,12 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  filter: brightness(55%);
 }
 
 a:hover {
   text-decoration: none;
+  filter: brightness(55%);
 }
 
 a:active {
@@ -40,7 +42,7 @@ div {
   object-fit: cover;
   border-radius: 50%;
 
-  box-shadow: 0px 0px 5px 5px #3498db;
+  box-shadow: 0px 0px 5px 5px #FFFFFF;
 
   z-index: 2;
   margin-bottom: 1vw;
@@ -56,6 +58,10 @@ div {
 .nav-name{
   position: relative;
   z-index: 2;
+}
+
+.nav-buttons:hover{
+  filter: brightness(55%);
 }
 
 .black-filter{
@@ -83,8 +89,8 @@ div {
   cursor: pointer;
 }
 
-.selected{
-  color: #3498db;
+.selected:hover{
+  filter: brightness(100%);
 }
 
 .content {

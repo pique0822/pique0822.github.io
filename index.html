@@ -3,7 +3,7 @@
 	<head>
 		<link rel="icon"
       type="image/png"
-      href="MD.png">
+      href="imgs/MD.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- CSS only -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
@@ -24,24 +24,26 @@
 	</head>
 	<body>
 		<div class='full-page row'>
-			<div class='navigation col-md-3 text-center' style='background-image : url("MIT.jpg");'>
+			<div class='navigation col-md-3 text-center' style='background-image : url("imgs/grandfather_mtn.jpg");'>
 				<div class='black-filter' ></div>
-				<img class='w-75' id='profile-picture' src='square_prof_2020-31-08.png'>
+				<img class='w-75' id='profile-picture' src='imgs/square_prof_2020-31-08.png'>
 				<br>
-				<span class='nav-name'>Miguel &Aacute;ngel del R&iacute;o Fern&aacute;ndez</span>
+				<span class='nav-name' id="myName">Miguel &Aacute;ngel del R&iacute;o Fern&aacute;ndez</span>
 				<br>
-				<span class='nav-name'>drmiguel@alum.mit.edu</span>
+				<span class='nav-name'>drmiguel<span id="at">@</span>alum.mit.edu</span>
 				<br>
 				<span class='nav-name'><a href="https://www.linkedin.com/in/miguel-del-rio/">LinkedIn</a></span>
 				<br>
 				<br>
-				<span class='nav-buttons selected' id='Home' onclick='selectThis("Home")'>Home</span>
+				<span class='nav-buttons' id='Home' onclick='selectThis("Home")'>Home</span>
 				<br>
 				<span class='nav-buttons' id='Resume' onclick='selectThis("Resume")'>Resume</span>
 				<br>
-				<span class='nav-buttons' id='Publications' onclick='selectThis("Publications")'>Publications</span>
+				<span class='nav-buttons' id='WorkProjects' onclick='selectThis("WorkProjects")'>Work Projects</span>
 				<br>
-				<span class='nav-buttons' id='Projects' onclick='selectThis("Projects")'>Projects</span>
+				<span class='nav-buttons' id='PersonalProjects' onclick='selectThis("PersonalProjects")'>Personal Projects</span>
+				<br>
+				<span class='nav-buttons' id='Publications' onclick='selectThis("Publications")'>Publications</span>
 			</div>
 			<div class='content col-md-9'>
 				<div class='content-title text-center'>
