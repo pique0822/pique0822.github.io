@@ -132,21 +132,21 @@ function updatePage(){
 
 	$('#' + selectedName).addClass('selected');
 	// Title
-	if("title" in vardef){
+	if(!(vardef['title'] === undefined)){
 		$('.content-title').html(vardef['title']);
 	} else {
 		$('.content-title').html($('.selected').text());
 	}
 
 	// Subtitle
-	if("subtitle" in vardef){
+	if(!(vardef['subtitle'] === undefined)){
 		$('.content-subtitle').html(vardef['subtitle']);
 	} else {
 		$('.content-subtitle').html('-');
 	}
 
 	// Main text
-	if("main" in vardef){
+	if(!(vardef['main'] === undefined)){
 		$('.content-main').css('font-style','normal');
 		$('.content-main').html(vardef['main']);
 	} else {
@@ -155,7 +155,7 @@ function updatePage(){
 	}
 
 	// Update the Color based on the page
-	if("color" in vardef){
+	if(!(vardef['color'] === undefined)){
 		$('.selected').css('color',vardef['color']);
 		$('.content-title').css('color',vardef['color']);
 		$('#profile-picture').css('box-shadow','0px 0px 5px 5px '+vardef['color']);
