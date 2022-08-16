@@ -8,13 +8,28 @@ $(document).ready(function() {
 	updatePage();
 });
 
+function getJSON(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
 function updatePage(){
 	selectedName = localStorage.getItem(SELECTED_PAGE);
 	if (selectedName == null) {
 		selectedName = DEFAULT_PAGE;
 	}
-	$.getJSON("https://pique0822.github.io/jsons/" + selectedName +".json",
-	function(vardef){
+	getJSON("https://pique0822.github.io/jsons/" + selectedName +".json",
+	function(err, vardef){
 		$('#' + selectedName).addClass('selected');
 		// Title
 		if(!(vardef['title'] === undefined)){
